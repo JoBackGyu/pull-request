@@ -29,8 +29,6 @@ public class TimeViewRx : MonoBehaviour {
 		
 		subject.OnNext("1");
 		subject.OnNext("2");
-		subject.OnNext("Hello");
-		subject.OnNext("4");
 		subject.OnCompleted();
 
 	}
