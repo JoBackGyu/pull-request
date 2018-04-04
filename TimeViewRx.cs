@@ -24,7 +24,7 @@ public class TimeViewRx : MonoBehaviour {
 			.Select(str => int.Parse(str)) 
 			.Subscribe(
 				x => Debug.Log("成功:"+x),
-				ex =>Debug.Log("例外が発生:"+ex)
+				//ex =>Debug.Log("例外が発生:"+ex)
 			);
 		
 		subject.OnNext("1");
